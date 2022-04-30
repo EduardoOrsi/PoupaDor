@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoupaDor</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>PoupaDor</h1>
+</head>
+
+<body>
+    <div id="menu">
+        <!--navbar-->
+        <a href="">Sobre o projeto</a>
+        <a href="">Perfil Financeiro</a>
+        <a href="">Planejador de finanças</a>
+        <a href="">Artigos relevantes</a>
+        <a href="">Sobre nós</a>
+    </div>
+
+    <div>
+        <h3>Sobre o projeto</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit voluptates officia, inventore assumenda rerum saepe pariatur, non repellendus recusandae tempore unde architecto maxime quas, debitis dolorum at mollitia sint.</p>
+    </div>
+
+    <div id="form">
+        <h3>Teste seu perfil financeiro</h3>
+        <!--Teste organizado com Javascript-->
+        <p>Entenda qual é o seu perfil financeiro e como agir para controlar suas finanças.Faça o teste e descubra em qual grupo você se encontra: Endividado, Equilibrado Financeiramente ou Investidor. </p>
+
+        <p>1. O que você ganha por mês é suficiente para arcar com os seus gastos?</p>
+
+                <input type="radio" id="optionOne" name="questionOne"> 
+                <label for="optionOne">Consigo pagar minhas contas e ainda guardo mais 10% dos meus ganhos todo mês;</label><br>
+
+                <input type="radio" id="optionTwo" name="questionOne"> 
+                <label for="optionTwo">É suficiente, mas não sobra nada;</label><br>
+
+                <input type="radio" id="optionThree" name="questionOne"> 
+                <label for="optionTwo">Gasto todo o meu dinheiro e ainda uso o limite de cheque especial ou peço emprestado para parentes e amigos.</label><br>
+
+        <p>2. Você tem conseguido pagar suas despesas em dia e à vista?</p>
+
+                <input type="radio" id="optionOne" name="questionTwo"> 
+                <label for="optionOne">Pago em dia, à vista e, em alguns casos, com bons descontos;</label><br>
+
+                <input type="radio" id="optionTwo" name="questionTwo"> 
+                <label for="optionTwo">Quase sempre, mas tenho que parcelar as compras de maior valor;</label><br>
+
+                <input type="radio" id="optionThree" name="questionTwo"> 
+                <label for="optionThree">Sempre parcelo meus compromissos e utilizo linhas de crédito como cheque especial, cartão de crédito e crediário.</label><br>
+        
+        <p>3. Você consegue fazer algum tipo de investimento</p>
+
+                <input type="radio" id="optionOne" name="questionThree"> 
+                <label for="optionOne">Utilizo mais de 10% do meu ganho em linhas de investimentos, que variam de acordo com os meus sonhos;</label><br>
+
+                <input type="radio" id="optionTwo" name="questionThree"> 
+                <label for="optionTwo">Quando sobra dinheiro, invisto, normalmente, na poupança;</label><br>
+
+                <input type="radio" id="optionThree" name="questionThree"> 
+                <label for="optionThree">Nunca sobra dinheiro para esse tipo de ação.</label><br>
+
+        <p>4. Você realiza seu orçamento financeiro mensalmente?</p>
+
+                <input type="radio" id="optionOne" name="questionFour"> 
+                <label for="optionOne">Faço periodicamente e comparo o orçado com o realizado;</label><br>
+
+                <input type="radio" id="optionTwo" name="questionFour"> 
+                <label for="optionTwo">Somente registro o realizado, sem analisar os gastos;</label><br>
+
+                <input type="radio" id="optionThree" name="questionFour"> 
+                <label for="optionThree">Não faço o meu orçamento financeiro.</label><br>
+
+        <p>5. Se a partir de hoje você não recebesse mais seu ganho, por quanto tempo você conseguiria manter seu atual padrão de vida?</p>
+
+                <input type="radio" id="optionOne" name="questionFive"> 
+                <label for="optionOne">Conseguiria fazer tudo o que faço por 10 anos ou mais;</label><br>
+
+                <input type="radio" id="optionTwo" name="questionFive"> 
+                <label for="optionTwo">Manteria o meu padrão de vida por, no máximo, um ano;</label><br>
+
+                <input type="radio" id="optionThree" name="questionFive"> 
+                <label for="optionThree">Não conseguiria me manter nem por alguns meses.</label><br>
+            
+        <p>6. Quando você decide comprar um produto, qual é a sua atitude?</p>
+
+                <input type="radio" id="optionOne" name="questionSix"> 
+                <label for="optionOne">Planejo uma forma de investimento para comprar à vista e com desconto;</label><br>
+
+                <input type="radio" id="optionTwo" name="questionSix"> 
+                <label for="optionTwo">Parcelo dentro do meu orçamento;</label><br>
+
+                <input type="radio" id="optionThree" name="questionSix"> 
+                <label for="optionThree">Compro e depois me preocupo como vou pagar.</label><br><br>
+
+        <input type="button" value="Enviar">
+    </div>
+
+    <div id="outcome">
+        <h3>Resultado</h3>
+        <!--Peso das respostas:
+        a) 10
+        b) 05
+        c) 00
+        
+        Pontuação:
+
+        De 40 a 60 – Investidor
+        De 20 a 40 – Equilibrado financeiramente
+        De 00 a 20 - Endividado-->
+    </div>
+
+    <div>
+        <h3>Planejador financeiro</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis vel, dolorem perspiciatis, alias incidunt architecto commodi atque veritatis non nemo nostrum impedit! Modi officia ratione id sunt quia commodi facilis.</p>
+
+        <label for="wage">Insira o seu salário: </label><br><br>
+        <input type="text" id="wage">
+        <input type="button" value="Calcular">
+        
+    </div>
+
+    <div id="articles">
+        <h3>Artigos relevantes</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, corrupti totam! Et vel magnam cum dolorum commodi dicta fugit deleniti, atque mollitia pariatur sit quaerat rerum? Explicabo odio eveniet a.</p> 
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <iframe width="480" height="235" src="https://www.youtube.com/embed/NAlwBXUag1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Plano para alcançar suas metas em 2022 - Canal Me Poupe!</p>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <iframe width="480" height="235" src="https://www.youtube.com/embed/dSLhykOui3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Planejamento financeiro fácil com salário baixo - Canal Me Poupe!</p>
+    </div>
+</body>
+<footer>
+    <h3>Organizadores do projeto</h3>
+    <div id="authors">
+
+        <div id="authorOne">
+            <img src="">
+            <p>Nome do dev</p>
+            <p>Descrição</p>
+        </div>
+
+        <div id="authorTwo">
+            <img src="">
+            <p>Nome do dev</p>
+            <p>Descrição</p>
+        </div>
+
+        <div id="authorThree">
+            <img src="">
+            <p>Nome do dev</p>
+            <p>Descrição</p>
+        </div>
+
+        <div id="authorFour">
+            <img src="">
+            <p>Nome do dev</p>
+            <p>Descrição</p>
+        </div>
+
+    </div>
+</footer>
+</html>
