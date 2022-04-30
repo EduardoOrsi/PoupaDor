@@ -5,19 +5,11 @@
     --verdeMuitoFraco: #F0FFF7;
 }
 
-html {
-
-}
-
 body {
     scroll-behavior: smooth;
     font-family: 'Roboto Condensed', sans-serif;
     max-width: 1800px;
 }
-
-/*.section-padding {
-   padding: 16rem;
-}*/
 
 .center{
     display: flex;
@@ -84,4 +76,3 @@ body {
     object-fit: cover;
     width: 400px;
 }
-
