@@ -128,7 +128,6 @@ const perguntas_financeiro = () => {
     passarRodada();
   };
   const selecionarResposta03 = () => {
-    pontosTotal += parseInt(PerguntasSectionButtonAlternativa03.value);
     passarRodada();
   };
 
