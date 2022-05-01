@@ -12,6 +12,7 @@ html {
 body {
   font-family: "Roboto Condensed", sans-serif;
   max-width: 1800px;
+  margin: auto;
 }
 
 .section-padding {
@@ -108,7 +109,136 @@ body {
   align-items: center;
 }
 
-.main-perfilfinanceiro-description {
-  width: 500px;
+.main__perfilfinanceiro-description {
+  width: 700px;
+  padding: 30px;
+  display: block;
+}
+
+.main__perfilfinanceiro-description h3 {
   margin-bottom: 30px;
+}
+
+.main__perfilfinanceiro-description p {
+  font-size: 20px;
+}
+
+.main__perfilfinanceiro-description button {
+  width: 280px;
+  height: 70px;
+  margin-top: 30px;
+
+  font-family: inherit;
+  color: var(--verdeMedio);
+  font-size: 26px;
+
+  outline: none;
+  background-color: transparent;
+  border: 3px solid var(--verdeMedio);
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: 0.5s ease-out;
+}
+
+.main__perfilfinanceiro-description button:hover {
+  transition: 0.3s ease-in;
+
+  color: white;
+  background-color: var(--verdeFraco);
+  border: 3px solid var(--verdeFraco);
+}
+
+#form-pergunta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+  padding: 30px;
+}
+
+.form-pergunta-display {
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.main__perfilfinanceiro-form-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__perfilfinanceiro-form-actions button {
+  width: 600px;
+  height: 70px;
+  margin-top: 30px;
+
+  font-family: inherit;
+  color: var(--verdeMedio);
+  font-size: 26px;
+
+  outline: none;
+  background-color: transparent;
+  border: 3px solid var(--verdeMedio);
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: 0.5s ease-out;
+}
+
+.main__perfilfinanceiro-form-actions button:hover {
+  transition: 0.3s ease-in;
+
+  color: white;
+  background-color: var(--verdeFraco);
+  border: 3px solid var(--verdeFraco);
+}
+
+.main__perfilfinanceiro-section {
+  width: 700px;
+  padding: 30px;
+  display: none;
+}
+
+.main__perfilfinanceiro-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__perfilfinanceiro-section-wrapper h3 {
+  margin-bottom: 30px;
+}
+
+.main__perfilfinanceiro-section-wrapper p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.main__perfilfinanceiro-section-wrapper button {
+  width: 280px;
+  height: 70px;
+
+  font-family: inherit;
+  color: var(--verdeMedio);
+  font-size: 26px;
+
+  outline: none;
+  background-color: transparent;
+  border: 3px solid var(--verdeMedio);
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: 0.5s ease-out;
+}
+
+.main__perfilfinanceiro-section-wrapper button:hover {
+  transition: 0.3s ease-in;
+
+  color: white;
+  background-color: var(--verdeFraco);
+  border: 3px solid var(--verdeFraco);
 }
