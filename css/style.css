@@ -1,78 +1,114 @@
 :root {
-    --verdeEscuro: #0A522D;
-    --verdeMedio: #14A35B;
-    --verdeFraco: #12BD68;
-    --verdeMuitoFraco: #F0FFF7;
+  --verdeEscuro: #0a522d;
+  --verdeMedio: #14a35b;
+  --verdeFraco: #12bd68;
+  --verdeMuitoFraco: #f0fff7;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    scroll-behavior: smooth;
-    font-family: 'Roboto Condensed', sans-serif;
-    max-width: 1800px;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 1800px;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-padding {
+  padding: 24rem 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-text {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
+}
+
+.title-text {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .header__container {
-    width: 100%;
-    background-color: var(--verdeFraco);
-    padding: 40px 0;
-    line-height: 40px;
+  width: 100%;
+  background-color: var(--verdeFraco);
+  padding: 40px 0;
+  line-height: 40px;
 }
 
 .header__container-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
 }
 
 #logo {
-    font-weight: bolder;
-    font-size: 42px;
-    color: white;
+  font-weight: bolder;
+  font-size: 42px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header__container-nav-itens a {
-    text-decoration: none;
-    color: white;
-    padding-left: 20px;
-    font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
 }
 
-.section__container {
-    padding: 20px 0;
-    background-image: linear-gradient(to right, var(--verdeMuitoFraco) , var(--verdeMedio));
+.header__container-nav-itens a:hover {
+  border-bottom: 3px solid white;
 }
 
-.section__container-wrapper {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.section__sobre {
+  padding: 20px 0;
+  background-image: linear-gradient(
+    to right,
+    var(--verdeMuitoFraco),
+    var(--verdeMedio)
+  );
 }
 
-.section__container-content {
-    width: 400px;
+.section__sobre-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.section__container-content h3 {
-    font-size: 32px;
-    margin-bottom: 20px;
+.section__sobre-content {
+  width: 400px;
 }
 
-.section__container-content p {
-    font-size: 18px;
-    line-height: 32px;
-    text-align: justify;
+.section__sobre-img img {
+  object-fit: cover;
+  width: 400px;
 }
 
-.section__container-img img {
-    object-fit: cover;
-    width: 400px;
+.main__perfilfinanceiro {
+  width: 100%;
+  background-color: var(--verdeMuitoFraco);
+}
+
+.main__perfilfinanceiro-wrapper {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-perfilfinanceiro-description {
+  width: 500px;
+  margin-bottom: 30px;
 }
