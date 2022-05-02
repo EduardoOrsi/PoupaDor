@@ -317,3 +317,45 @@ p {
   
 }
 
+/*Artigos*/
+
+.artigos{
+  display: flex;
+  background-color: var(--verdeMuitoFraco);
+  padding: 70px 0;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.title__artigos{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+
+.text__artigos{
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.conteudoVideo__artigos{
+  display: flex;
+}
+
+.caixa{
+  border-radius: 5px;
+  margin-left: 22px;
+}
+
+.textoVideo__artigos{
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+}

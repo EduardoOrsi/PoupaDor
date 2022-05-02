@@ -22,7 +22,7 @@
         <div class="header__container-nav-itens">
           <a href="#sobre">Sobre o projeto</a>
           <a href="#perfil_financeiro">Perfil Financeiro</a>
-          <a href="#">Planejador de finanças</a>
+          <a href="#financeiro">Planejador de finanças</a>
           <a href="#">Artigos relevantes</a>
           <a href="#">Sobre nós</a>
         </div>
@@ -84,7 +84,7 @@
       </div>
     </main>
 
-    <section class="container__planejamentoFinanceiro">
+    <section id="financeiro" class="container__planejamentoFinanceiro">
       <h3 class="title__planejamentoFinanceiro">Planejador financeiro</h3>
       <p class="text__planejamentoFinanceiro">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis vel,
@@ -93,45 +93,46 @@
         facilis.
       </p>
       <form class="form__planejamentoFinanceiro" action="">
-      <label for="wage">Insira o seu salário: </label><br /><br />
-      <input type="number" placeholder="Insira aqui seu Salário" id="wage" />
-      <button>Calcular</button>
-    </form>
+        <label for="wage">Insira o seu salário: </label><br /><br />
+        <input type="number" placeholder="Insira aqui seu Salário" id="wage" />
+        <button>Calcular</button>
+      </form>
     </section>
 
-    <div id="articles">
-      <h3>Artigos relevantes</h3>
-
-      <p>
+    <section id="articles" class="artigos">
+      <h3 class="title__artigos">Artigos relevantes</h3>
+      <p class="text__artigos">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
         corrupti totam! Et vel magnam cum dolorum commodi dicta fugit deleniti,
         atque mollitia pariatur sit quaerat rerum? Explicabo odio eveniet a.
       </p>
-
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-      <iframe
-        width="480"
-        height="235"
-        src="https://www.youtube.com/embed/NAlwBXUag1Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <p>Plano para alcançar suas metas em 2022 - Canal Me Poupe!</p>
-
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-      <iframe
-        width="480"
-        height="235"
-        src="https://www.youtube.com/embed/dSLhykOui3Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <p>Planejamento financeiro fácil com salário baixo - Canal Me Poupe!</p>
-    </div>
+      <div class="conteudoVideo__artigos">
+        <div class="caixa">
+          <iframe class="video__artigo"
+          width="600"
+          height="340"
+          src="https://www.youtube.com/embed/NAlwBXUag1Y"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p class="textoVideo__artigos">Plano para alcançar suas metas em 2022 - Canal Me Poupe!</p> 
+        </div>
+        <div class="caixa">
+          <iframe class="video__artigo caixa"
+          width="600"
+          height="340"
+          src="https://www.youtube.com/embed/dSLhykOui3Y"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p class="textoVideo__artigos">Planejamento financeiro fácil com salário baixo - Canal Me Poupe!</p>
+        </div>
+        </div>
+    </section>
 
     <footer>
       <h3>Organizadores do projeto</h3>
