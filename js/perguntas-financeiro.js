@@ -115,7 +115,6 @@ const perguntas_financeiro = () => {
     PerguntasSectionButtonAlternativa03.innerText =
       respostasAlternativa03[rodada];
     rodada++;
-    console.log(pontosTotal);
   };
 
   let pontosTotal = 0;
