@@ -115,16 +115,17 @@ const perguntas_financeiro = () => {
     PerguntasSectionButtonAlternativa03.innerText =
       respostasAlternativa03[rodada];
     rodada++;
+    console.log(pontosTotal);
   };
 
   let pontosTotal = 0;
 
   const selecionarResposta01 = () => {
-    pontosTotal += parseInt(PerguntasSectionButtonAlternativa01.value);
+    pontosTotal += 10;
     passarRodada();
   };
   const selecionarResposta02 = () => {
-    pontosTotal += parseInt(PerguntasSectionButtonAlternativa02.value);
+    pontosTotal += 5;
     passarRodada();
   };
   const selecionarResposta03 = () => {
