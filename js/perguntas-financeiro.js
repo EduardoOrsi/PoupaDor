@@ -135,7 +135,7 @@ const perguntas_financeiro = () => {
     let perfil = "";
     let descricao = "";
 
-    if (pontosTotal >= 0 && pontosTotal <= 40) {
+    if (pontosTotal < 45) {
       perfil = "Endividado";
       descricao =
         "É preciso fazer um diagnóstico financeiro, saber quanto ganha, com o que gasta, descrever e detalhar todos os credores e os valores das dívidas. Mas, atenção, não procure o credor para fazer acordo no primeiro momento; caso ele venha lhe procurar, diga que você está se organizando financeiramente, sabe que deve e pagará quando e como puder.";
