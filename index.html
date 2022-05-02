@@ -58,7 +58,9 @@
             suas finanças.Faça o teste e descubra em qual grupo você se
             encontra: Endividado, Equilibrado Financeiramente ou Investidor.
           </p>
-          <button id="iniciar-teste-btn" type="button">Iniciar Teste</button>
+          <button class="display-btn" id="iniciar-teste-btn" type="button">
+            Iniciar Teste
+          </button>
         </div>
         <form id="form-pergunta">
           <div class="form-pergunta-display">
@@ -78,25 +80,35 @@
           <div class="main__perfilfinanceiro-resultado-wrapper">
             <h3 id="perfil-h3" class="title-text">Perfil Investidor</h3>
             <p id="perfil-descricao-p" class="small-text">Descrição</p>
-            <button id="reiniciar-btn" type="button">Refazer teste</button>
+            <button class="display-btn" id="reiniciar-btn" type="button">
+              Refazer teste
+            </button>
           </div>
         </section>
       </div>
     </main>
 
-    <section id="financeiro" class="container__planejamentoFinanceiro">
-      <h3 class="title__planejamentoFinanceiro">Planejador financeiro</h3>
-      <p class="text__planejamentoFinanceiro">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis vel,
-        dolorem perspiciatis, alias incidunt architecto commodi atque veritatis
-        non nemo nostrum impedit! Modi officia ratione id sunt quia commodi
-        facilis.
-      </p>
-      <form class="form__planejamentoFinanceiro" action="">
-        <label for="wage">Insira o seu salário: </label><br /><br />
-        <input type="number" placeholder="Insira aqui seu Salário" id="wage" />
-        <button>Calcular</button>
-      </form>
+    <section
+      id="financeiro"
+      class="container__planejamentoFinanceiro section-padding center"
+    >
+      <div class="container__planejamentoFinanceiro-wrapper">
+        <h3 class="title-text">Planejador financeiro</h3>
+        <p class="small-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis vel,
+          dolorem perspiciatis, alias incidunt architecto commodi atque
+          veritatis non nemo nostrum impedit! Modi officia ratione id sunt quia
+          commodi facilis.
+        </p>
+        <form class="form__planejamentoFinanceiro" action="">
+          <input
+            type="text"
+            placeholder="Insira aqui seu Salário"
+            id="salario"
+          />
+          <button type="button" class="display-btn">Calcular</button>
+        </form>
+      </div>
     </section>
 
     <section id="articles" class="artigos">
@@ -108,30 +120,36 @@
       </p>
       <div class="conteudoVideo__artigos">
         <div class="caixa">
-          <iframe class="video__artigo"
-          width="600"
-          height="340"
-          src="https://www.youtube.com/embed/NAlwBXUag1Y"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <p class="textoVideo__artigos">Plano para alcançar suas metas em 2022 - Canal Me Poupe!</p> 
+          <iframe
+            class="video__artigo"
+            width="600"
+            height="340"
+            src="https://www.youtube.com/embed/NAlwBXUag1Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p class="textoVideo__artigos">
+            Plano para alcançar suas metas em 2022 - Canal Me Poupe!
+          </p>
         </div>
         <div class="caixa">
-          <iframe class="video__artigo caixa"
-          width="600"
-          height="340"
-          src="https://www.youtube.com/embed/dSLhykOui3Y"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <p class="textoVideo__artigos">Planejamento financeiro fácil com salário baixo - Canal Me Poupe!</p>
+          <iframe
+            class="video__artigo caixa"
+            width="600"
+            height="340"
+            src="https://www.youtube.com/embed/dSLhykOui3Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p class="textoVideo__artigos">
+            Planejamento financeiro fácil com salário baixo - Canal Me Poupe!
+          </p>
         </div>
-        </div>
+      </div>
     </section>
 
     <footer>
