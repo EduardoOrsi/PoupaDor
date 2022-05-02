@@ -120,11 +120,11 @@ const perguntas_financeiro = () => {
   let pontosTotal = 0;
 
   const selecionarResposta01 = () => {
-    pontosTotal += parseInt(PerguntasSectionButtonAlternativa01.value);
+    pontosTotal += 10;
     passarRodada();
   };
   const selecionarResposta02 = () => {
-    pontosTotal += parseInt(PerguntasSectionButtonAlternativa02.value);
+    pontosTotal += 5;
     passarRodada();
   };
   const selecionarResposta03 = () => {
@@ -132,14 +132,9 @@ const perguntas_financeiro = () => {
   };
 
   const definirPerfil = () => {
-    let perfil = "";
-    let descricao = "";
-
-    if (pontosTotal >= 0 && pontosTotal <= 40) {
-      perfil = "Endividado";
-      descricao =
-        "É preciso fazer um diagnóstico financeiro, saber quanto ganha, com o que gasta, descrever e detalhar todos os credores e os valores das dívidas. Mas, atenção, não procure o credor para fazer acordo no primeiro momento; caso ele venha lhe procurar, diga que você está se organizando financeiramente, sabe que deve e pagará quando e como puder.";
-    }
+    let perfil = "Endividado";
+    let descricao =
+      "É preciso fazer um diagnóstico financeiro, saber quanto ganha, com o que gasta, descrever e detalhar todos os credores e os valores das dívidas. Mas, atenção, não procure o credor para fazer acordo no primeiro momento; caso ele venha lhe procurar, diga que você está se organizando financeiramente, sabe que deve e pagará quando e como puder.";
 
     if (pontosTotal >= 45 && pontosTotal <= 65) {
       perfil = "Equilibrado Financeiramente";
