@@ -237,7 +237,6 @@ p {
   font-family: inherit;
   color: var(--verdeMedio);
   font-size: 26px;
-
   outline: none;
   background-color: transparent;
   border: 3px solid var(--verdeMedio);
@@ -254,3 +253,67 @@ p {
   background-color: var(--verdeFraco);
   border: 3px solid var(--verdeFraco);
 }
+
+/*Section planejamento financeiro*/
+
+.container__planejamentoFinanceiro{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: var(--verdeMuitoFraco);
+}
+
+.title__planejamentoFinanceiro{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.text__planejamentoFinanceiro{
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  width: 50%;
+  margin-bottom: 20px;
+  }
+
+.form__planejamentoFinanceiro label{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form__planejamentoFinanceiro input{
+  width: 150px;
+  height: 30px;
+  border: 3px solid var(--verdeMedio);
+  outline: none;
+}
+
+.form__planejamentoFinanceiro button{
+  width: 100px;
+  height: 40px;
+
+  font-family: inherit;
+  color: var(--verdeMedio);
+  font-size: 20px;
+
+  outline: none;
+  background-color: transparent;
+  border: 3px solid var(--verdeMedio);
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: 0.5s ease-out;
+  margin-left: 15px;
+}
+
+.form__planejamentoFinanceiro button:hover{
+  transition: 0.3s ease-in;
+
+  color: white;
+  background-color: var(--verdeFraco);
+  border: 3px solid var(--verdeFraco);
+  
+}
+
