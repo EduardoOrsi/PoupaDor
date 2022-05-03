@@ -119,15 +119,9 @@ const perguntas_financeiro = () => {
 
   let pontosTotal = 0;
 
-  const selecionarResposta01 = () => {
-    pontosTotal += 10;
-    passarRodada();
-  };
-  const selecionarResposta02 = () => {
-    pontosTotal += 5;
-    passarRodada();
-  };
-  const selecionarResposta03 = () => {
+  const contabilizarResposta = (event) => {
+    const pontuacaoDaResposta = +event.target.value;
+    pontosTotal += pontuacaoDaResposta;
     passarRodada();
   };
 
@@ -165,15 +159,15 @@ const perguntas_financeiro = () => {
 
   PerguntasSectionButtonAlternativa01.addEventListener(
     "click",
-    selecionarResposta01
+    contabilizarResposta
   );
   PerguntasSectionButtonAlternativa02.addEventListener(
     "click",
-    selecionarResposta02
+    contabilizarResposta
   );
   PerguntasSectionButtonAlternativa03.addEventListener(
     "click",
-    selecionarResposta03
+    contabilizarResposta
   );
 
   ResultadoSectionButtonReiniciar.addEventListener(
