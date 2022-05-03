@@ -92,22 +92,97 @@
       id="financeiro"
       class="container__planejamentoFinanceiro section-padding center"
     >
-      <div class="container__planejamentoFinanceiro-wrapper">
-        <h3 class="title-text">Planejador financeiro</h3>
-        <p class="small-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis vel,
-          dolorem perspiciatis, alias incidunt architecto commodi atque
-          veritatis non nemo nostrum impedit! Modi officia ratione id sunt quia
-          commodi facilis.
-        </p>
-        <form class="form__planejamentoFinanceiro" action="">
-          <input
-            type="text"
-            placeholder="Insira aqui seu Salário"
-            id="salario"
-          />
-          <button type="button" class="display-btn">Calcular</button>
-        </form>
+      <div class="container__planejamentoFinanceiro-wrapper center">
+        <div
+          id="planejamento-tela-principal"
+          class="container__planejamentoFinanceiro-telaInicial"
+        >
+          <h3 class="title-text">Planejador financeiro</h3>
+          <p class="small-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+            vel, dolorem perspiciatis, alias incidunt architecto commodi atque
+            veritatis non nemo nostrum impedit! Modi officia ratione id sunt
+            quia commodi facilis.
+          </p>
+          <form class="form__planejamentoFinanceiro" action="">
+            <button
+              id="planejamento-btn-calcular"
+              type="button"
+              class="display-btn"
+            >
+              Calcular
+            </button>
+            <label htmlFor="salario">R$</label>
+            <input
+              type="text"
+              placeholder="Insira aqui seu salário"
+              id="salario"
+              value=""
+            />
+          </form>
+        </div>
+        <div
+          id="planejamento-resultados"
+          class="container__planejamentoFinanceiro-resultados"
+        >
+          <div class="container__planejamentoFinanceiro-cards">
+            <div class="container__planejamentoFinanceiro-card center">
+              <div class="container__planejamentoFinanceiro-card-wrapper">
+                <h2 id="planejamento-resultado-50" class="title-text">
+                  Use Valor (50 %)
+                </h2>
+                <h3>Gastos Essenciais</h3>
+                <ul>
+                  <li class="small-text">Aluguel</li>
+                  <li class="small-text">Alimentação</li>
+                  <li class="small-text">Educação</li>
+                  <li class="small-text">Saúde</li>
+                  <li class="small-text">Contas</li>
+                  <li class="small-text">Transporte</li>
+                </ul>
+              </div>
+            </div>
+            <div class="container__planejamentoFinanceiro-card center">
+              <div class="container__planejamentoFinanceiro-card-wrapper">
+                <h2 id="planejamento-resultado-30" class="title-text">
+                  Use Valor (30 %)
+                </h2>
+                <h3>Gastos Supérfluos e Desejos</h3>
+                <ul>
+                  <li class="small-text">Viagens</li>
+                  <li class="small-text">Streaming</li>
+                  <li class="small-text">TV</li>
+                  <li class="small-text">Lazer</li>
+                  <li class="small-text">Produtos</li>
+                  <li class="small-text">Cinema</li>
+                </ul>
+              </div>
+            </div>
+            <div class="container__planejamentoFinanceiro-card center">
+              <div class="container__planejamentoFinanceiro-card-wrapper">
+                <h2 id="planejamento-resultado-20" class="title-text">
+                  Use Valor (20 %)
+                </h2>
+                <h3>Dívidas ou Investimentos</h3>
+                <ul>
+                  <li class="small-text">Financiamentos</li>
+                  <li class="small-text">Empréstimos</li>
+                  <li class="small-text">Contas</li>
+                  <li class="small-text">Planejamento Financeiro</li>
+                  <li class="small-text">Reserva de Emergência</li>
+                  <li class="small-text">Investimentos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <button
+            id="planejamento-btn-calcular-novamente"
+            type="button"
+            class="display-btn"
+          >
+            Calcular Novamente
+          </button>
+        </div>
       </div>
     </section>
 
@@ -183,6 +258,11 @@
     <script
       type="text/javascript"
       src="./js/perguntas-financeiro.js"
+      defer
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/planejador-financeiro.js"
       defer
     ></script>
   </body>
