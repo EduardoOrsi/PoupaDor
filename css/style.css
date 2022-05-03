@@ -1,6 +1,7 @@
 :root {
   --verdeEscuro: #0a522d;
   --verdeMedio: #14a35b;
+  --verdeMedioFraco: #9efdca;
   --verdeFraco: #12bd68;
   --verdeMuitoFraco: #f0fff7;
   --laranjaEscuro: #c4740c;
@@ -41,6 +42,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .small-text {
@@ -349,30 +357,26 @@ p {
 /*Artigos*/
 
 .artigos {
-  display: flex;
-  background-color: var(--verdeMuitoFraco);
-  padding: 70px 0;
-  flex-direction: column;
+  background-color: var(--verdeMedioFraco);
   width: 100%;
-  align-items: center;
 }
 
-.title__artigos {
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 20px;
+.conteudoTexto__artigos {
+  width: 700px;
 }
 
-.text__artigos {
-  text-align: center;
-  font-size: 18px;
-  line-height: 32px;
-  width: 50%;
-  margin-bottom: 20px;
+.conteudoTexto__artigos h3 {
+  margin-bottom: 30px;
+}
+
+.conteudoTexto__artigos p {
+  margin-bottom: 100px;
 }
 
 .conteudoVideo__artigos {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .caixa {
