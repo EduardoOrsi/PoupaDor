@@ -5,11 +5,9 @@
   --verdeFraco: #12bd68;
   --verdeMuitoFraco: #f0fff7;
   --laranjaEscuro: #c4740c;
-  --laranjaMedio: #d88c00;
   --laranjaFraco: #ffb52e;
   --laranjaMuitoFraco: #fff4e0;
   --vermelhoEscuro: #a70000;
-  --vermelhoMedio: #ad1d1d;
   --vermelhoFraco: #ff7b7b;
   --vermelhoMuitoFraco: #ffbaba;
 }
@@ -52,7 +50,7 @@ p {
 }
 
 .small-text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 32px;
   text-align: justify;
 }
@@ -161,11 +159,6 @@ p {
 
 .main__perfilfinanceiro-wrapper {
   width: 80%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .main__perfilfinanceiro-description {
@@ -178,16 +171,7 @@ p {
   margin-bottom: 30px;
 }
 
-.main__perfilfinanceiro-description p {
-  font-size: 20px;
-}
-
 #form-pergunta {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   display: none;
   padding: 30px;
 }
@@ -199,13 +183,6 @@ p {
 
 .form-pergunta-display h3 {
   margin-bottom: 10px;
-}
-
-.main__perfilfinanceiro-form-actions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .main__perfilfinanceiro-form-actions button {
