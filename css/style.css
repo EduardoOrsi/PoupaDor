@@ -368,3 +368,43 @@ p {
   line-height: 32px;
   font-weight: 500;
 }
+
+/* sobre nos */
+
+.section__sobrenos {
+  padding: 12rem 0;
+  background-color: rgb(22, 21, 21);
+}
+
+.section__sobrenos-wrapper {
+  width: 80%;
+}
+
+.section__sobrenos-wrapper h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.section__sobrenos-cards {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__sobrenos-card {
+  width: 220px;
+  height: 300px;
+  padding: 10px 20px 30px;
+
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
