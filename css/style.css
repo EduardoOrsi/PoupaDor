@@ -193,7 +193,7 @@ p {
   margin-bottom: 20px;
 }
 
-.section__sbore-img img {
+.section__sobre-img img {
   object-fit: cover;
   width: 400px;
 }
@@ -225,7 +225,7 @@ p {
 }
 
 .form-pergunta-display {
-  width: 100%;
+  width: 800px;
   padding: 20px 10px;
 }
 
@@ -525,7 +525,7 @@ footer p {
   .section__sobre-content {
     width: 500px;
   }
-  .section__sbore-img img {
+  .section__sobre-img img {
     width: 450px;
   }
 
@@ -563,7 +563,7 @@ footer p {
     font-size: 19px;
   }
 
-  .section__sbore-img img {
+  .section__sobre-img img {
     width: 450px;
   }
 
@@ -594,7 +594,7 @@ footer p {
   }
 
   .form-pergunta-display {
-    padding: 20px 50px;
+    width: 765px;
   }
 
   .form-pergunta-display h2 {
@@ -633,5 +633,24 @@ footer p {
 
   .header__container-nav-itens a:hover {
     border-bottom: 3px solid white;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section-padding {
+    padding: 20rem 0;
+  }
+
+  .section__sobre-img img {
+    width: 300px;
+  }
+
+  .form-pergunta-display {
+    width: 700px;
+  }
+
+  .main__perfilfinanceiro-form-actions button {
+    width: 700px;
+    font-size: 22px;
   }
 }
