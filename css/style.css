@@ -170,7 +170,7 @@ p {
 }
 
 .section__sobre {
-  padding: 20px 0;
+  padding: 50px;
   background-image: linear-gradient(
     to right,
     var(--verdeMuitoFraco),
@@ -193,7 +193,7 @@ p {
   margin-bottom: 20px;
 }
 
-.section__sobre-img img {
+.section__sbore-img img {
   object-fit: cover;
   width: 400px;
 }
@@ -204,7 +204,7 @@ p {
 }
 
 .main__perfilfinanceiro-wrapper {
-  width: 80%;
+  width: 100%;
 }
 
 .main__perfilfinanceiro-description {
@@ -490,13 +490,69 @@ footer p {
 
 /* Responsivo */
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .small-text {
     font-size: 22px;
   }
 
   .title-text {
     font-size: 36px;
+  }
+
+  .section-padding {
+    padding: 24rem 0;
+  }
+
+  .header__container {
+    padding: 36px 0;
+    line-height: 32px;
+  }
+
+  #logo {
+    font-size: 50px;
+  }
+
+  .header__container-nav-itens a {
+    font-size: 22px;
+  }
+
+  .section__sobre {
+    padding: 64px;
+  }
+
+  .section__sobre-content {
+    width: 500px;
+  }
+  .section__sbore-img img {
+    width: 450px;
+  }
+
+  .section__sobrenos-wrapper h1 {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+
+  .section__sobrenos-card {
+    width: 300px;
+    height: 450px;
+  }
+
+  .section__sobrenos-card-content img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .section__sobrenos-card-content h2 {
+    font-size: 28px;
+  }
+
+  .section__sobrenos-card-content p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  footer p {
+    font-size: 18px;
   }
 }
 
@@ -511,6 +567,10 @@ footer p {
 }
 
 @media screen and (max-width: 1025px) {
+  .small-text {
+    font-size: 18px;
+  }
+
   #bars-menu-btn {
     display: block;
   }

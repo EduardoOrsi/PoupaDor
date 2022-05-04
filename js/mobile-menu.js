@@ -20,7 +20,7 @@ const mobile_menu = () => {
       mobileMenuOverlay.style.opacity = 0;
       setTimeout(() => {
         mobileMenuOverlay.style.display = "none";
-      }, 1000);
+      }, 500);
     });
   };
 
