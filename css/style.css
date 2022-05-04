@@ -396,8 +396,8 @@ p {
 
 .section__sobrenos-card {
   width: 220px;
-  height: 300px;
-  padding: 10px 20px 30px;
+  height: 350px;
+  padding: 10px 20px;
 
   background-color: white;
   border-radius: 12px;
@@ -407,4 +407,25 @@ p {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.section__sobrenos-card-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.section__sobrenos-card-content h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section__sobrenos-card-content p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section__sobrenos-card-buttons img {
+  width: 50px;
 }
