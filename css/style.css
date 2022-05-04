@@ -198,6 +198,8 @@ p {
   width: 400px;
 }
 
+/* perfil financeiro */
+
 .main__perfilfinanceiro {
   width: 100%;
   background-color: var(--verdeMuitoFraco);
@@ -490,7 +492,7 @@ footer p {
 
 /* Responsivo */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .small-text {
     font-size: 22px;
   }
@@ -556,6 +558,32 @@ footer p {
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .small-text {
+    font-size: 19px;
+  }
+
+  .section__sbore-img img {
+    width: 450px;
+  }
+
+  .conteudoVideo__artigos {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section__sobrenos-cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section__sobrenos-card {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 1070px) {
   #logo {
     font-size: 34px;
@@ -563,6 +591,19 @@ footer p {
 
   .header__container-nav-itens a {
     font-size: 18px;
+  }
+
+  .form-pergunta-display {
+    padding: 20px 50px;
+  }
+
+  .form-pergunta-display h2 {
+    font-size: 28px;
+  }
+
+  .main__perfilfinanceiro-form-actions button {
+    width: 765px;
+    font-size: 24px;
   }
 }
 
