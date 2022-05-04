@@ -21,10 +21,26 @@
   </head>
 
   <body>
+    <div id="mobile-overlay" class="header__container-mobileMenu center">
+      <img
+        id="close-ico"
+        src="./assets/icons/icons8-x-50.png"
+        alt="close tab"
+      />
+      <ul>
+        <li><a href="#sobre">Sobre o projeto</a></li>
+        <li><a href="#perfil_financeiro">Perfil Financeiro</a></li>
+        <li><a href="#financeiro">Planejador de finanças</a></li>
+        <li><a href="#artigos">Artigos relevantes</a></li>
+        <li><a href="#sobrenos">Sobre nós</a></li>
+      </ul>
+    </div>
+
     <header class="header__container center">
       <nav class="header__container-nav">
         <a href="#" id="logo">PoupaDor</a>
-        <div class="header__container-nav-itens">
+        <img id="bars-menu-btn" src="./assets/icons/bars.png" alt="bars menu" />
+        <div id="desktop-links" class="header__container-nav-itens">
           <a href="#sobre">Sobre o projeto</a>
           <a href="#perfil_financeiro">Perfil Financeiro</a>
           <a href="#financeiro">Planejador de finanças</a>
@@ -340,5 +356,6 @@
       src="./js/planejador-financeiro.js"
       defer
     ></script>
+    <script type="text/javascript" src="./js/mobile-menu.js" defer></script>
   </body>
 </html>
