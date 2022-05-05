@@ -823,3 +823,43 @@ footer p {
     height: 380px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .section__sobre-content {
+    width: 350px;
+  }
+
+  .main__perfilfinanceiro-description {
+    width: 370px;
+  }
+
+  .form-pergunta-display {
+    width: 368px;
+  }
+
+  .main__perfilfinanceiro-form-actions button {
+    width: 350px;
+  }
+  .main__perfilfinanceiro-resultado {
+    width: 370px;
+  }
+  .container__planejamentoFinanceiro-telaInicial {
+    width: 370px;
+  }
+
+  .conteudoTexto__artigos {
+    width: 370px;
+  }
+
+  .video__artigo {
+    width: 300px;
+  }
+  .section__sobrenos-card {
+    width: 300px;
+    height: 360px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
