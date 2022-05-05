@@ -31,6 +31,25 @@ p {
   user-select: none !important;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--verdeMuitoFraco);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--verdeFraco);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--verdeEscuro);
+}
+
 /* Classes globais */
 
 .section-padding {
