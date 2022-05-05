@@ -394,14 +394,11 @@ p {
 .conteudoTexto__artigos {
   width: 700px;
   padding: 30px;
+  margin-bottom: 100px;
 }
 
 .conteudoTexto__artigos h3 {
   margin-bottom: 30px;
-}
-
-.conteudoTexto__artigos p {
-  margin-bottom: 100px;
 }
 
 .conteudoVideo__artigos {
@@ -766,42 +763,30 @@ footer p {
 }
 
 @media screen and (max-width: 550px) {
-  .small-text {
-    line-height: 28px;
-  }
-
   .display-btn {
-    width: 215px;
     font-size: 24px;
   }
 
   .main__perfilfinanceiro-description {
-    width: 450px;
+    width: 430px;
   }
 
   .main__perfilfinanceiro-resultado {
-    width: 450px;
-  }
-
-  .form-pergunta-display {
-    width: 468px;
-  }
-
-  .form-pergunta-display h2 {
-    font-size: 22px;
-  }
-  .form-pergunta-display h3 {
-    font-size: 14px;
-  }
-
-  .main__perfilfinanceiro-form-actions button {
-    width: 450px;
-    font-size: 18px;
+    width: 430px;
   }
 
   .container__planejamentoFinanceiro-telaInicial {
-    width: 450px;
+    width: 430px;
   }
+
+  .form-pergunta-display {
+    width: 418px;
+  }
+  .main__perfilfinanceiro-form-actions button {
+    width: 400px;
+    height: 100px;
+  }
+
   .form__planejamentoFinanceiro {
     flex-direction: column-reverse;
   }
@@ -817,12 +802,16 @@ footer p {
     width: 300px;
   }
 
+  .container__planejamentoFinanceiro-card {
+    width: 300px;
+  }
   .textoVideo__artigos {
     font-size: 16px;
   }
 
   .conteudoTexto__artigos {
-    width: 450px;
+    width: 430px;
+    margin-bottom: 50px;
   }
 
   .video__artigo {
@@ -830,7 +819,7 @@ footer p {
   }
 
   .section__sobrenos-card {
-    width: 350px;
-    height: 360px;
+    width: 330px;
+    height: 380px;
   }
 }
