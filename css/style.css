@@ -14,6 +14,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -861,5 +862,64 @@ footer p {
 
   footer p {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .display-btn {
+    font-size: 22px;
+  }
+
+  .section__sobre-content {
+    width: 280px;
+  }
+
+  .main__perfilfinanceiro-resultado {
+    width: 340px;
+  }
+
+  .main__perfilfinanceiro-description {
+    width: 315px;
+  }
+
+  .form-pergunta-display {
+    width: 298px;
+  }
+  .form-pergunta-display h2 {
+    font-size: 22px;
+  }
+  .main__perfilfinanceiro-form-actions button {
+    width: 280px;
+    font-size: 18px;
+    height: 130px;
+  }
+  .container__planejamentoFinanceiro-telaInicial {
+    width: 320px;
+  }
+  .form__planejamentoFinanceiro input[type="text"] {
+    width: 280px;
+    font-size: 20px;
+  }
+
+  .form__planejamentoFinanceiro button {
+    width: 280px;
+  }
+
+  .container__planejamentoFinanceiro-card {
+    width: 280px;
+  }
+
+  .conteudoTexto__artigos {
+    width: 320px;
+  }
+
+  .video__artigo {
+    width: 240px;
+    height: 280px;
+  }
+
+  .section__sobrenos-card {
+    width: 260px;
+    height: 380px;
   }
 }
