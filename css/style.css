@@ -59,6 +59,11 @@ p {
   font-size: 32px;
 }
 
+#header-fix {
+  width: 100%;
+  padding: 35px 0;
+}
+
 .display-btn {
   width: 280px;
   height: 70px;
@@ -171,7 +176,8 @@ p {
   font-size: 20px;
 }
 
-.header__container-nav-itens a:hover {
+.header__container-nav-itens a:hover,
+.header__container-nav-itens a:active {
   border-bottom: 3px solid white;
 }
 
@@ -255,14 +261,6 @@ p {
   cursor: pointer;
 
   transition: 0.5s ease-out;
-}
-
-.main__perfilfinanceiro-form-actions button:hover {
-  transition: 0.3s ease-in;
-
-  color: white;
-  background-color: var(--verdeFraco);
-  border: 3px solid var(--verdeFraco);
 }
 
 .main__perfilfinanceiro-resultado {
@@ -409,10 +407,11 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-
-.caixa {
-  border-radius: 5px;
-  margin-left: 22px;
+.video__artigo {
+  width: 600px;
+  height: 340px;
+  border-radius: 10px;
+  margin-left: 30px;
 }
 
 .textoVideo__artigos {
@@ -578,6 +577,10 @@ footer p {
     justify-content: center;
   }
 
+  .video__artigo {
+    margin-left: 0;
+  }
+
   .section__sobrenos-cards {
     flex-direction: column;
     justify-content: center;
@@ -639,10 +642,6 @@ footer p {
   .header__container-nav-itens {
     display: none;
   }
-
-  .header__container-nav-itens a:hover {
-    border-bottom: 3px solid white;
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -702,5 +701,64 @@ footer p {
 
   .video__artigo {
     width: 500px;
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .main__perfilfinanceiro-form-actions button:hover,
+  .main__perfilfinanceiro-form-actions button:active {
+    transition: 0.3s ease-in;
+
+    color: white;
+    background-color: var(--verdeFraco);
+    border: 3px solid var(--verdeFraco);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .display-btn {
+    width: 240px;
+  }
+
+  .section__sobre {
+    padding: 50px 50px 180px;
+  }
+  .section__sobre-wrapper {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .section__sobre-img img {
+    margin-bottom: 50px;
+  }
+
+  .main__perfilfinanceiro-description {
+    width: 500px;
+  }
+
+  .main__perfilfinanceiro-resultado {
+    width: 500px;
+  }
+  .form-pergunta-display {
+    width: 518px;
+  }
+
+  .main__perfilfinanceiro-form-actions button {
+    width: 500px;
+  }
+
+  .container__planejamentoFinanceiro-telaInicial {
+    width: 500px;
+  }
+  .form__planejamentoFinanceiro input[type="text"] {
+    width: 260px;
+    font-size: 22px;
+  }
+
+  .conteudoTexto__artigos {
+    width: 500px;
+  }
+
+  .video__artigo {
+    width: 400px;
   }
 }
