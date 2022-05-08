@@ -31,4 +31,4 @@
 - Antônio Victor [Linkedin](https://www.linkedin.com/in/antonio-victor-oliveira-borges-4a2852228) && [GitHub](https://github.com/DevVictor19);
 - Eduardo Orsi [Linkedin](https://www.linkedin.com/in/eduorsi/) && [GitHub](https://github.com/EduardoOrsi);
 - Gi Helena [Linkedin]() && [GitHub](https://github.com/giohelena);
-- Wilson Jesus [Linkedin](https://www.linkedin.com/in/walison-jesus-82aaba1b7/) && [GitHub](https://github.com/walisonjesus);
+- Walison Jesus [Linkedin](https://www.linkedin.com/in/walison-jesus-82aaba1b7/) && [GitHub](https://github.com/walisonjesus);
